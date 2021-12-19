@@ -25,13 +25,13 @@ final class Main {
      * @param args No args will be used.
      */
     public static void main(final String[] args) {
-        final MrCoxallStack DarienStack = new MrCoxallStack();
+        final MrCoxallStack darienStack = new MrCoxallStack();
         final int number1 = 8;
         final int number2 = 56;
 
-        DarienStack.push(number1);
-        DarienStack.push(number2);
-        DarienStack.showStack();
+        darienStack.push(number1);
+        darienStack.push(number2);
+        darienStack.showStack();
 
         System.out.println("Done.");
     }
